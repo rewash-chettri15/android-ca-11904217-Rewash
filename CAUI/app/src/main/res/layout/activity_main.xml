@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDD748"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="60dp"
+        android:textColorHint="#D50707"
+        android:height="60dp"
+        android:hint="Edit Text"
+
+        android:padding="8dp"
+        android:textSize="18dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/edittextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="60dp"
+        android:height="60dp"
+        android:text="Edit Text"
+
+        android:textSize="17dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiobuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittextbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp">
+
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Tea"
+            android:textSize="19dp"
+            android:textColor="#D50707"/>
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green Tea"
+            android:textSize="19dp"
+            android:textColor="#D50707"/>
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lemon Tea"
+            android:textSize="19dp"
+            android:textColor="#D50707"/>
+
+
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/ckb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiobuttons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#D50707"
+        android:text="Pasta"
+
+        android:textSize="18dp"/>
+
+    <CheckBox
+        android:id="@+id/ckb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ckb1"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#D50707"
+        android:text="Curry"
+
+        android:textSize="18dp"/>
+
+    <CheckBox
+        android:id="@+id/ckb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ckb2"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#D50707"
+        android:text="Fries "
+
+        android:textSize="18dp"/>
+
+
+
+
+
+</RelativeLayout>
